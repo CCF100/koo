@@ -1,9 +1,9 @@
 # by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 VALA_MIN_API_VERSION=0.26
 
-EGIT_REPO_URI="git://github.com/poinck/lampe.git"
+EGIT_REPO_URI="https://github.com/poinck/lampe.git"
 inherit git-r3 vala
 
 DESCRIPTION="Control your Philips Hue lights"
@@ -21,7 +21,7 @@ RDEPEND="net-misc/curl
 	>=dev-libs/glib-2.42:2
 	dev-libs/json-glib
 	>=x11-libs/gtk+-3.14:3
-	>=net-libs/libsoup-2.48.1"
+	net-libs/libsoup:2.4"
 DEPEND="${RDEPEND}
 	$(vala_depend)"
 

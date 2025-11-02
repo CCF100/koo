@@ -1,6 +1,6 @@
 # ebuild by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 VALA_MIN_API_VERSION=0.26
 
 DESCRIPTION="Control your Philips Hue lights"

@@ -1,6 +1,6 @@
 # ebuild by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 
 DESCRIPTION="interactive bash-script to control your Philips Hue lights"
 HOMEPAGE="https://github.com/poinck/lampe"

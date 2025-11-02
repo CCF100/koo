@@ -1,8 +1,8 @@
 # ebuild by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 
-EGIT_REPO_URI="git://github.com/dominictarr/JSON.sh.git"
+EGIT_REPO_URI="https://github.com/dominictarr/JSON.sh.git"
 inherit git-r3
 
 DESCRIPTION="a pipeable JSON parser written in bash"
@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
-RDEPEND="virtual/awk"
+RDEPEND="app-alternatives/awk"
 DEPEND="${RDEPEND}"
 	
 S="${WORKDIR}/JSON-sh-${PV}"

@@ -1,6 +1,6 @@
 # ebuild by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 
 DESCRIPTION="a pipeable JSON parser written in bash"
 HOMEPAGE="https://github.com/poinck/JSON.sh"

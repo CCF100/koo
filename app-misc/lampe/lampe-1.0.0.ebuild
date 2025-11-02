@@ -1,6 +1,6 @@
 # by André Klausnitzer, CC0
 
-EAPI=5
+EAPI=8
 
 DESCRIPTION="interactive bash-script to control up to 9 Philips Hue lights"
 HOMEPAGE="https://github.com/poinck/lampe"
